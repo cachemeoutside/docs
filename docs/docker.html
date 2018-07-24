@@ -80,7 +80,11 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Docker</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#installing-sphinx">Installing Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-docker">Installing Docker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ubuntu-debian-systems">Ubuntu/Debian Systems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#redhat-centos-systems">RedHat/CentOS Systems</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#cheatsheet-for-navigating-through-docker-cli">Cheatsheet for navigating through docker cli</a></li>
 </ul>
 </li>
@@ -152,18 +156,30 @@
   <div class="section" id="docker">
 <h1>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
 <p>This page serves a documentation for my personal docker documentation. I mainly put reference info here. Use it at your own will.</p>
-<div class="section" id="installing-sphinx">
-<h2>Installing Sphinx<a class="headerlink" href="#installing-sphinx" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sphinx
-pip install sphinx_rtd_theme
-~/.local/bin/sphinx-quickstart .
-</pre></div>
+<div class="section" id="installing-docker">
+<h2>Installing Docker<a class="headerlink" href="#installing-docker" title="Permalink to this headline">¶</a></h2>
+<p>This documentation is currently using the community edition of Docker.</p>
+<div class="section" id="ubuntu-debian-systems">
+<h3>Ubuntu/Debian Systems<a class="headerlink" href="#ubuntu-debian-systems" title="Permalink to this headline">¶</a></h3>
+<p>Reference info for ubuntu/debian systems can be found on the official site .. _here: <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">https://docs.docker.com/install/linux/docker-ce/ubuntu/</a></p>
+<blockquote>
+<div># Add GPG Key for docker ce
+$ curl -fsSL <a class="reference external" href="https://download.docker.com/linux/ubuntu/gpg">https://download.docker.com/linux/ubuntu/gpg</a> | sudo apt-key add -
+$ sudo add-apt-repository “deb [arch=amd64] <a class="reference external" href="https://download.docker.com/linux/ubuntu">https://download.docker.com/linux/ubuntu</a> $(lsb_release -cs) stable”
+$ apt-get install docker-ce</div></blockquote>
+</div>
+<div class="section" id="redhat-centos-systems">
+<h3>RedHat/CentOS Systems<a class="headerlink" href="#redhat-centos-systems" title="Permalink to this headline">¶</a></h3>
+<p>Reference info for ubuntu/debian systems can be found on the official site .. _here: <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/fedora/">https://docs.docker.com/install/linux/docker-ce/fedora/</a></p>
+<blockquote>
+<div>$ yum -y install yum-utils device-mapper-persistent-data lvm2
+$ yum-config-manager –add-repo <a class="reference external" href="https://download.docker.com/linux/centos/docker-ce.repo">https://download.docker.com/linux/centos/docker-ce.repo</a>
+$ yum instal docker-ce</div></blockquote>
 </div>
 </div>
 <div class="section" id="cheatsheet-for-navigating-through-docker-cli">
 <h2>Cheatsheet for navigating through docker cli<a class="headerlink" href="#cheatsheet-for-navigating-through-docker-cli" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="colwidths-given docutils" id="id1">
-<caption><span class="caption-text">Commands</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<table border="1" class="colwidths-given docutils">
 <colgroup>
 <col width="33%" />
 <col width="67%" />
@@ -176,6 +192,54 @@ pip install sphinx_rtd_theme
 <tbody valign="top">
 <tr class="row-even"><td>docker ps -a</td>
 <td>Displays a list of docker containers. Default shows running containers, the -a flag will show a history of all containers that ran/start/stopped. This is useful if you want to get a docker container ID</td>
+</tr>
+<tr class="row-odd"><td>docker kill 9b7a9d0e7737</td>
+<td>Kills the specified container</td>
+</tr>
+<tr class="row-even"><td>docker rm 9b7a9d0e7737</td>
+<td>Removes the specified container</td>
+</tr>
+<tr class="row-odd"><td>docker inspect 9b7a9d0e7737</td>
+<td>Describes and displays system information(network and OS level attributes)</td>
+</tr>
+<tr class="row-even"><td>docker exec –tty 9b7a9d0e7737 env TERM=xterm yum -y install openssh-server</td>
+<td>Open a tty session with xterm to run commands on the docker instance. This is good if you’re just running some basic commands on the instance itself.</td>
+</tr>
+<tr class="row-odd"><td>docker image ls</td>
+<td>List available local docker images to run</td>
+</tr>
+<tr class="row-even"><td>docker exec –tty 9b7a9d0e7737 env TERM=xterm sh -c “echo ‘something in this world’ &gt; /etc/givemepowers”</td>
+<td>Open a shell with TTY. Useful if you’re piping or quoting commands</td>
+</tr>
+<tr class="row-odd"><td>docker login</td>
+<td>Logs into dockerhub</td>
+</tr>
+<tr class="row-even"><td>docker stop 9b7a9d0e7737</td>
+<td>Stops the docker container</td>
+</tr>
+<tr class="row-odd"><td>docker –commit -m ‘Added workstation pubkey’ -a ‘Anthony V’ 9b7a9d0e7737</td>
+<td>Builds a docker image from a stopped container</td>
+</tr>
+<tr class="row-even"><td>docker tag my_image $DOCKER_ID_USER/my_image</td>
+<td>Tags a local latest image to dockerhub image</td>
+</tr>
+<tr class="row-odd"><td>docker push $DOCKER_ID_USER_my_image</td>
+<td>Pushes the updated image into dockerhub</td>
+</tr>
+<tr class="row-even"><td>docker build -t centos7-local .</td>
+<td>Builds a local image file from reading a Dockerfile in cwd</td>
+</tr>
+<tr class="row-odd"><td>docker run –name jenkinslocal –detach –privileged –volume=/sys/fs/cgroup:/sys/fs/cgroup:ro –volume=/home/avuong/scratch:/data:rw avuong/centos7-systemd:latest /sbin/init</td>
+<td>Runs a privileged docker container with shared mounted volumes and works with systemd on linux based systems</td>
+</tr>
+<tr class="row-even"><td>docker start jenkinslocal</td>
+<td>Start a stopped or killed container</td>
+</tr>
+<tr class="row-odd"><td>docker rmi someimage</td>
+<td>Remove a local docker image</td>
+</tr>
+<tr class="row-even"><td>docker pull avuong/centos7-systemd:latest</td>
+<td>Pull latest docker image from source(dockerhub in this case)</td>
 </tr>
 </tbody>
 </table>
