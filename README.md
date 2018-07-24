@@ -1,9 +1,17 @@
 # My instructions for deploying sphinx documentation
-## Instruction
 
+## Installing sphinx
+```bash
+  503  pip install sphinx
+  504  pip install sphinx_rtd_theme
+  526  ~/.local/bin/sphinx-quickstart .
+```
+
+## Day to day instructions
 ```bash
 make -j html
-s3 syn
-test blahblah
 rsync -av --delete _build/html/ docs/
+git add *
+git commit -m 'your message'
+git push origin master
 ```
