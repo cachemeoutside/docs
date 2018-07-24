@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Docker Quick References &mdash; Test Documentation 1.0 documentation</title>
+  <title>Docker &mdash; Test Documentation 1.0 documentation</title>
   
 
   
@@ -79,7 +79,11 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Docker Quick References</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Docker</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installing-sphinx">Installing Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cheatsheet-for-navigating-through-docker-cli">Cheatsheet for navigating through docker cli</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
@@ -126,7 +130,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Docker Quick References</li>
+      <li>Docker</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -145,14 +149,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="docker-quick-references">
-<h1>Docker Quick References<a class="headerlink" href="#docker-quick-references" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Docker CLI cheatsheet</p>
-</div>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker ps -a
+  <div class="section" id="docker">
+<h1>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h1>
+<p>This page serves a documentation for my personal docker documentation. I mainly put reference info here. Use it at your own will.</p>
+<div class="section" id="installing-sphinx">
+<h2>Installing Sphinx<a class="headerlink" href="#installing-sphinx" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sphinx
+pip install sphinx_rtd_theme
+~/.local/bin/sphinx-quickstart .
 </pre></div>
+</div>
+</div>
+<div class="section" id="cheatsheet-for-navigating-through-docker-cli">
+<h2>Cheatsheet for navigating through docker cli<a class="headerlink" href="#cheatsheet-for-navigating-through-docker-cli" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="colwidths-given docutils" id="id1">
+<caption><span class="caption-text">Commands</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Docker Command</th>
+<th class="head">Function</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>docker ps -a</td>
+<td>Displays a list of docker containers. Default shows running containers, the -a flag will show a history of all containers that ran/start/stopped. This is useful if you want to get a docker container ID</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="section" id="indices-and-tables">
