@@ -163,7 +163,7 @@
 <p>This documentation is currently using the community edition of Docker.</p>
 <div class="section" id="ubuntu-debian-systems">
 <h3>Ubuntu/Debian Systems<a class="headerlink" href="#ubuntu-debian-systems" title="Permalink to this headline">¶</a></h3>
-<p>Reference info for ubuntu/debian systems can be found on the official site .. _here: <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">https://docs.docker.com/install/linux/docker-ce/ubuntu/</a></p>
+<p>Reference info for ubuntu/debian systems can be found on the official site <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">here</a>.</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> Add GPG Key <span class="k">for</span> docker ce
 <span class="gp">$</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg <span class="p">|</span> sudo apt-key add -
 <span class="gp">$</span> sudo add-apt-repository <span class="se">\</span>
@@ -176,7 +176,7 @@
 </div>
 <div class="section" id="redhat-centos-systems">
 <h3>RedHat/CentOS Systems<a class="headerlink" href="#redhat-centos-systems" title="Permalink to this headline">¶</a></h3>
-<p>Reference info for ubuntu/debian systems can be found on the official site .. _here: <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/fedora/">https://docs.docker.com/install/linux/docker-ce/fedora/</a></p>
+<p>Reference info for RedHat/CentOS systems can be found on the official site in the <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/fedora/">CentOS instructions</a>.</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> yum -y install yum-utils device-mapper-persistent-data lvm2
 <span class="gp">$</span> yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 <span class="gp">$</span> yum instal docker-ce
@@ -197,55 +197,55 @@
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>docker ps -a</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-a</span></code></td>
 <td>Displays a list of docker containers. Default shows running containers, the -a flag will show a history of all containers that ran/start/stopped. This is useful if you want to get a docker container ID</td>
 </tr>
-<tr class="row-odd"><td>docker kill 9b7a9d0e7737</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">kill</span> <span class="pre">9b7a9d0e7737</span></code></td>
 <td>Kills the specified container</td>
 </tr>
-<tr class="row-even"><td>docker rm 9b7a9d0e7737</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">rm</span> <span class="pre">9b7a9d0e7737</span></code></td>
 <td>Removes the specified container</td>
 </tr>
-<tr class="row-odd"><td>docker inspect 9b7a9d0e7737</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">9b7a9d0e7737</span></code></td>
 <td>Describes and displays system information(network and OS level attributes)</td>
 </tr>
-<tr class="row-even"><td>docker exec –tty 9b7a9d0e7737 env TERM=xterm yum -y install openssh-server</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">exec</span> <span class="pre">--tty</span> <span class="pre">9b7a9d0e7737</span> <span class="pre">env</span> <span class="pre">TERM=xterm</span> <span class="pre">yum</span> <span class="pre">-y</span> <span class="pre">install</span> <span class="pre">openssh-server</span></code></td>
 <td>Open a tty session with xterm to run commands on the docker instance. This is good if you’re just running some basic commands on the instance itself.</td>
 </tr>
-<tr class="row-odd"><td>docker image ls</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">image</span> <span class="pre">ls</span></code></td>
 <td>List available local docker images to run</td>
 </tr>
-<tr class="row-even"><td>docker exec –tty 9b7a9d0e7737 env TERM=xterm sh -c “echo ‘something in this world’ &gt; /etc/givemepowers”</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">exec</span> <span class="pre">--tty</span> <span class="pre">9b7a9d0e7737</span> <span class="pre">env</span> <span class="pre">TERM=xterm</span> <span class="pre">sh</span> <span class="pre">-c</span> <span class="pre">&quot;echo</span> <span class="pre">'something</span> <span class="pre">in</span> <span class="pre">this</span> <span class="pre">world'</span> <span class="pre">&gt;</span> <span class="pre">/etc/givemepowers&quot;</span></code></td>
 <td>Open a shell with TTY. Useful if you’re piping or quoting commands</td>
 </tr>
-<tr class="row-odd"><td>docker login</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">login</span></code></td>
 <td>Logs into dockerhub</td>
 </tr>
-<tr class="row-even"><td>docker stop 9b7a9d0e7737</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">stop</span> <span class="pre">9b7a9d0e7737</span></code></td>
 <td>Stops the docker container</td>
 </tr>
-<tr class="row-odd"><td>docker –commit -m ‘Added workstation pubkey’ -a ‘Anthony V’ 9b7a9d0e7737</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">--commit</span> <span class="pre">-m</span> <span class="pre">'Added</span> <span class="pre">workstation</span> <span class="pre">pubkey'</span> <span class="pre">-a</span> <span class="pre">'Anthony</span> <span class="pre">V'</span> <span class="pre">9b7a9d0e7737</span></code></td>
 <td>Builds a docker image from a stopped container</td>
 </tr>
-<tr class="row-even"><td>docker tag my_image $DOCKER_ID_USER/my_image</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">tag</span> <span class="pre">my_image</span> <span class="pre">$DOCKER_ID_USER/my_image</span></code></td>
 <td>Tags a local latest image to dockerhub image</td>
 </tr>
-<tr class="row-odd"><td>docker push $DOCKER_ID_USER_my_image</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">push</span> <span class="pre">$DOCKER_ID_USER_my_image</span></code></td>
 <td>Pushes the updated image into dockerhub</td>
 </tr>
-<tr class="row-even"><td>docker build -t centos7-local .</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">build</span> <span class="pre">-t</span> <span class="pre">centos7-local</span> <span class="pre">.</span></code></td>
 <td>Builds a local image file from reading a Dockerfile in cwd</td>
 </tr>
-<tr class="row-odd"><td>docker run –name jenkinslocal –detach –privileged –volume=/sys/fs/cgroup:/sys/fs/cgroup:ro –volume=/home/avuong/scratch:/data:rw avuong/centos7-systemd:latest /sbin/init</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span> <span class="pre">--name</span> <span class="pre">jenkinslocal</span> <span class="pre">--detach</span> <span class="pre">--privileged</span> <span class="pre">--volume=/sys/fs/cgroup:/sys/fs/cgroup:ro</span> <span class="pre">--volume=/home/avuong/scratch:/data:rw</span> <span class="pre">avuong/centos7-systemd:latest</span> <span class="pre">/sbin/init</span></code></td>
 <td>Runs a privileged docker container with shared mounted volumes and works with systemd on linux based systems</td>
 </tr>
-<tr class="row-even"><td>docker start jenkinslocal</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">start</span> <span class="pre">jenkinslocal</span></code></td>
 <td>Start a stopped or killed container</td>
 </tr>
-<tr class="row-odd"><td>docker rmi someimage</td>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">rmi</span> <span class="pre">someimage</span></code></td>
 <td>Remove a local docker image</td>
 </tr>
-<tr class="row-even"><td>docker pull avuong/centos7-systemd:latest</td>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span> <span class="pre">avuong/centos7-systemd:latest</span></code></td>
 <td>Pull latest docker image from source(dockerhub in this case)</td>
 </tr>
 </tbody>
