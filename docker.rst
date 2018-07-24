@@ -7,7 +7,11 @@ Docker Quick References
 ==============================================
 .. note::
 
-  This is just a scratch documentation space for my personal use.
+  Docker CLI cheatsheet
+
+.. code-block:: bash
+
+  docker ps -a
 
 
 
