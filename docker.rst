@@ -7,13 +7,33 @@ Docker
 ==============================================
 This page serves a documentation for my personal docker documentation. I mainly put reference info here. Use it at your own will.
 
-Installing Sphinx
+Installing Docker
 *****************
-.. code-block:: bash
+This documentation is currently using the community edition of Docker.
 
-   pip install sphinx
-    pip install sphinx_rtd_theme
-    ~/.local/bin/sphinx-quickstart .
+Ubuntu/Debian Systems
+---------------------
+Reference info for ubuntu/debian systems can be found on the official site .. _here: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+..
+
+    # Add GPG Key for docker ce
+    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    $ sudo add-apt-repository \
+    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable"
+    $ apt-get install docker-ce
+
+RedHat/CentOS Systems
+---------------------
+Reference info for ubuntu/debian systems can be found on the official site .. _here: https://docs.docker.com/install/linux/docker-ce/fedora/
+
+..
+
+    $ yum -y install yum-utils device-mapper-persistent-data lvm2
+    $ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    $ yum instal docker-ce
 
 
 Cheatsheet for navigating through docker cli
