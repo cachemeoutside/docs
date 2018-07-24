@@ -15,7 +15,7 @@ Ubuntu/Debian Systems
 ---------------------
 Reference info for ubuntu/debian systems can be found on the official site .. _here: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-::
+.. code-block:: console
 
     # Add GPG Key for docker ce
     $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -29,7 +29,7 @@ RedHat/CentOS Systems
 ---------------------
 Reference info for ubuntu/debian systems can be found on the official site .. _here: https://docs.docker.com/install/linux/docker-ce/fedora/
 
-::
+.. code-block:: console
 
     $ yum -y install yum-utils device-mapper-persistent-data lvm2
     $ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo

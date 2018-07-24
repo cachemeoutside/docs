@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Test Documentation'
-copyright = u'2018, Anthony'
-author = u'Anthony'
+project = u"Welcome to Anthony's Documentation"
+copyright = u'2018, Anthony Vuong'
+author = u'Anthony Vuong'
 
 # The short X.Y version
 version = u''
