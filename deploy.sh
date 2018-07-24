@@ -9,4 +9,4 @@ make -j html
 rsync -av --delete _build/html/ docs/
 git add *
 git commit -m "$1"
-git push porigin master
+git push origin master
