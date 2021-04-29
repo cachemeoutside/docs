@@ -1,0 +1,7 @@
+site_name: cachemeoutside Docs
+nav:
+  - Home: index.md
+  - About: about.md
+  - Book Notes:
+    - Atomic Habits: books/atomichabits.md
+#theme: readthedocs
