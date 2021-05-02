@@ -3,6 +3,9 @@
 ## Table of Contents
 1. [Definition](#Definition)
 1. [Chapter 1 - The Fundamentals](#Chapter 1 - The Fundamentals)
+    1. [The Surprising Power of Atomic Habits](###The Surprising Power of Atomic Habits)
+    1. [How Habits Shape Your Identity (and Vice Versa)](###How Habits Shape Your Identity (and Vice Versa))
+    1. [How to Build Better Habits in 4 Simple Steps](#Chapter 1 - The Fundamentals)
 1. [Chapter 2 - The 1st Law](#Chapter 2 - The 1st Law)
 1. [Chapter 3 - The 2nd Law](#Chapter 3 - The 2nd Law)
 1. [Chapter 4 - The 3rd Law](#Chapter 4 - The 3rd Law)
