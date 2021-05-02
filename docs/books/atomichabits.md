@@ -24,7 +24,7 @@
 ## Chapter 1 - The Fundamentals
 ### The Surprising Power of Atomics Habits
 #### Chapter Summary(page 28)
-* Habits are the compound interest of self-improvement. Getting 1 percent bettter every day counts for a lot in the long-run
+* Habits are the compound interest of self-improvement. Getting 1 percent better every day counts for a lot in the long-run
 * Habits are a double-edged sword. They can work for you or against you, which is why undesrtanding the details is essential
 * Small changes often appear to make no difference until you cross a critical threshold. The most powerful outcomes of any compounding process are delayed. You need to be patient
 * An atomic habit is a little habit that is part of a larger system. Just as atoms are the building blocks of molecules, atomic habits are the building blocks of remarkable results
@@ -85,16 +85,155 @@
     * Process
         * Decide the type of person you want to be
         * Prove it to yourself with small wins
-
-
 ### How to Build Better Habits in 4 Simple Steps
+#### Chapter Summary(page 55)
+* A habit is a behavior that has been repeated enough times to become automatic
+* The ultimate purpose of habits is to solve the problems of life with as little energy and effort as possible
+* Any habit can be broken down into a feedback loop that involves four steps:
+    1. Cue
+        * Triggers your brain to initiate a behavior
+        * A bit of information that predicts a reward(food, water, money, etc.)
+    1. Craving
+        * Wants change
+        * Differs from person to person
+        * Example:
+            * You are not motivated by brushing your teeth but rather by the feeling of a clean mouth
+            * You do not want to turn on the television, you want to be entertained
+        * Every craving is linked to a desire to change your internal state
+    1. Response
+        * The actual habit you perform which can take the form of a thought or an action
+        * Response depends on ability. Habit can occur only if you are capable of doing it
+            * If you want to dunk a basketball but can't jump high enough, you can't make it a habit
+        * Response delivers a reward
+    1. Reward
+        * First purpose is to satisfy your craving
+        * Second purpose is to teach us which actions are worth remembering in the future
+            * Brain is a reward detector and is continuously monitoring which actions satisfy your desires and deliver pleasure
+            * Feels of pleasure and dissappointment are part of the feedback mechanism that helps your brain distinguish useful actions from useless ones
+* The Four Laws of Behavior Change are a simple set of rules we can use to build better habits. They are
+    1. Cue: Make it obvious
+    1. Craving: Make it attractive
+    1. Response: Make it easy
+    1. Reward: Make it satisfying
+#### My takeaway
+* The four-step pattern is the backbone of every habit and acts as a feedback loop. In order to successfully break down a habit or create a habit, a behavior in each stage must be sufficient, or else it will not become a habit
+* Cue and Craving are the problem, Response and Reward are the solutions
+* The inverse of the four laws of behavior change can be used to break a habit
+    1. Cue: Make it invisible
+    1. Craving: Make it unattractive
+    1. Response: Make it difficult
+    1. Reward: Make it unsatisfying
+* The purpose of every habit is to solve the problems you face
 ### Summary
+1. Atomic habits that compound over the long-term is what leads to effective habits that solve your problem
+1. It is important to focus on the atomic aspect when building habits as you want incremental improvements
+1. Instead of focusing on the results, follow the "Fix the inputs and the outputs will fix themselves" mindset
+1. Progress is not linear
+1. 3 layers of behavior changes
+    * Outcome, process, identity
+    * Shift from outcome-based habits to identity-based habits
+1. Four Laws of Behavior Change
+    * Cue, craving, response, reward
+        * All stages must succeed to build an effective habit
 
 ## Chapter 2 - The 1st Law
 ### The Man Who Didn't Look Right
+#### Chapter Summary (page 66)
+* With enough practice, your brain will pick up on the cues that predict certain outcomes without consciously thinking about it
+* Once our habits become automatic, we stop paying attention to what we are doing
+* The process of behavior change always starts with awareness. You need to be aware of your habits before you can change them
+* Pointing-and-Calling raises your level of awareness from a non-conscious habit to a more conscious level by verbalizing your actions
+* The Habits Scorecard is a simple exercise you can use to become more aware of your behavior
+#### My takeaway
+* The human brain is a prediction machine. It is continuously taking in your surroundsing and analyzing the information it comes across.
+    * When the brain recognizes a repeated pattern or situation, it will react quicker than the conscious mind
+        * Example:
+            1. A paramedic seeing the face of a heart attack patient
+            1. A military anaylst seeing a missle on a radar screen
+* Pointing-and-Calling is a safety system designed to reduce mistakes
+    * Japan railway systems uses this system
+    * Can reduce errors up to 85 percents and cuts accidents by 30 percent
+    * It's effective because it raises the level of awareness from a nonconscious habit to a more conscious level. You are more likely to notice problems when using other sensory functions
+    * Example:
+        * Before going out, check if you have your necessary items:
+            * I have my wallet, keys, glasses, mask
+            * I locked all windows and balcony doors
+* Habits scoreboard
+    1. Create a full list of each behavior and ask yourself: Is this a good habit, a bad habit, or a neutral habit
+        * Good: +
+        * Bad: -
+        * Neutral: =
+    1. The marks you give to a particular habit will depend  on your sitation and goals
+    1. Scoring your habits can be a bit more complex. There are no good or bad habits, there are only effective habits(at solving the problem)
+* The process of behavior change always starts with awareness. Recognize your habits and acknowledge the cues that trigger them. This is what makes it possible to respond in a way that benefits you
 ### The Best Way to Start a New Habit
+#### Chapter Summary (page 79)
+* The 1st Law of Behavior Change is make it obvious
+* The two most common cues are time and location
+* Creating an implementation intention is a strategy you can use to pair a new habit with a specific time and location
+* The implementation intention formula is: I will [BEHAVIOR] at [TIME] in [LOCATION]
+* Habit stacking is a strategy you can use to pair a new habit with a current habit
+* The habit stacking formula is: After I [CURRENT HABIT], I will [NEW HABIT}
+#### My takeaway
+* Implementation intention: a plan you make beforehand about when and where to act. How you intend to implement a particular habit
+* People who make a specific plan for when and where they will perform a new habit are more likely to follow through
+    * Example: I will exercise for one hour at 5 p.m. in my local gym
+* Habit stacking
+    * Diderot effect: obtaining a new possession often creates a spiral of consumption that leads to additional purchases:
+        * Example: I bought a nice suit, now I need nice shoes, now I need nice socks, etc.
+    * Habit stacking uses the Diderot effect in a positive manner by stacking upon existing effective habits:
+        * Example(s):
+            * You wake up to pour a cup of coffee every morning --> You wake up to pour a cup of coffee every morning and stretch for 5 minutes afterwards
+            * Mood: When the phone rings, I will take one deep breath and smile before answering
+            * Financial: When I want to buy something over $100, I will wait 24 hours before purchasing
+* To get started(you can use the Habits Scorecard), create a list with two columns
+    * The first column lists habits you do each day without fail
+    * The second column lists things that happen to you each day without fail
+* Once you have the lists, you can begin searching for the best place to layer your new habit into your lifestyle
 ### Motivation is Overrated; Environment Often Matters More
+#### Chapter Summary (page 90)
+* Small changes in context can lead to large changes in behavior over time
+* Every habit is initiated by a cue. We are more likely to notice cues that stand out
+* Make the cues of good habits obvious in your environment
+Gradually, your habits become associated not with a single trigger but with the entire context surrounding the behavior. The context becomes the cue
+* It is easier to build new habits in a new environment because you are not fighting against old cues
+#### My takeaways
+* People often choose products not because of what they are, but because of where they are
+* Environment is the invisible hand that shapes human behavior
+* Kurt Lewin simple equation: Behavior is a function of the Person in their Environment, b =f(P,E)
+    * Tried in business world. Impulse buying is triggered when a shopper sees a product for the first time and visualizes a need for it. They buy it not because they want them, but because of how it is presented
+* You don't have to be a victim of your environment, you can also be the architect of it
+* Design your environment for success
+    * Every habit is initiated by a cue, and we are more likely to notice cues that stand out
+        * Example: Airport placed a small sticker like a fly near the center of each men's urinal. The stickers "improved their aim" and significantly reduce "spillage" around the urinals. Furhter analysis determined that the stickers cut out bathroom cleaning costs by 8 percent per year
+    * The context is the cue
+        * One use per space. I.e.
+            * Eating only in the dining room
+            * Work only in the office room
+            * Bed is only for sleeping
+        * A stable environment where everything has a place and a purpose is an environment where habits can easily form
+### The Secret to Self-Control
+#### Chapter Summary
+* The inversion of the 1st Law of Behavior Change is make it invisible
+* Once a habit is formed, it is unlikely to be forgotten
+* People with high self-control tend to spend less time in tempting situations. It's easier to avoid temptation than resist it
+* One of the most practical ways to eliminate a bad habit is to reduce exposure to the cue that causes it
+* Self-control is a short term strategy, not a long term one
+#### My takeaways
+* Chapter summary sums up the chapter well
+* It is better to spend your time optimizing your environment than creating willpower to change
 ### Summary
+* The 1st law of behavior change is to make it obvious
+    * Awareness
+    * Cues
+    * Acknowledgement
+* Implementation intention formula is effective in creating effective habits
+* Use the habit stacking technique to create new habits
+* Design your environment for success. It is easier to control the environment you spend a significant amount of your time in than your emotions and willpower
+* Every habit is initiated by a cue, and we are more likely to notice cues that stand out
+* Most individuals do not have "self-control". Rather, they choose and design their environments to resist temptation and avoid indulgence
+* Motivation is temporary, a stable environment is sustainable
+
 
 ## Chapter 3 - The 2nd Law
 ### How to Make a Habit Irresistible
