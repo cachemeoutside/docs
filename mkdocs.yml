@@ -4,4 +4,4 @@ nav:
   - About: about.md
   - Book Notes:
     - Atomic Habits: books/atomichabits.md
-#theme: readthedocs
+theme: readthedocs
