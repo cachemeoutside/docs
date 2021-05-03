@@ -48,7 +48,7 @@
 * The most effective way to change your habits is to focus not on what you want to achieve, but on who you wish to become
 * Your identity emerges out of your habits. Every action is a vote for the type of person you wish to become
 * Becoming the bets version of yourself requires you to continuously edit your beliefs, and to upgrade and expand your identity
-* The real reason habits matter is not because theyt can get better results (although they can do that), but because they can change your beliefs about yourself
+* The real reason habits matter is not because they can get better results (although they can do that), but because they can change your beliefs about yourself
 #### My takeaway
 * Changing habits is challenging for two reasons
     * We try to change the wrong thing
@@ -234,12 +234,96 @@ Gradually, your habits become associated not with a single trigger but with the 
 * Most individuals do not have "self-control". Rather, they choose and design their environments to resist temptation and avoid indulgence
 * Motivation is temporary, a stable environment is sustainable
 
-
 ## Chapter 3 - The 2nd Law
 ### How to Make a Habit Irresistible
+#### Chapter Summary (page 111)
+* The 2nd Law of Behavior Change is make it attractive
+* The more attractive an opportunity is, the more likely it is to become habit-forming
+* Habits are a dopamine-driven feedback loop. When dopamine arises, so does our motivation to act
+* It is the anticipation of a reward--not the fulfillment of it-- that gets us to take action. The greater the anticipation, the greater the dopamine spike
+* Temptation bundling is one way to make your habits more attractive. The strategy is to pair an action you want to do with an action you need to do
+#### My takeaways
+* Dopamine-driven feedback loop
+    * You can like something, but if you don't have the desire(dopamine), you won't want it
+    * When dopamine rises, so does your motivation to act
+    * It is the anticipation of a reward that gets us to take action
+* Use temptation bundling to make your habits more attractive
+    * Example
+        * Write a computer program that would allow Netflix to run only if he was cycling at a certain speed
+    * Stack with habit stacking formula:
+        1. After I [CURRENT HABIT], I will [HABIT I NEED].
+        1. After [HABIT I NEED], I will [HABIT I WANT].
+        1. Example:
+            1. After I get my morning coffee, I will say one thing I'm grateful for(need)
+            1. After I say one thing I'mgrate for, I will read the news(want)
+* Making a habit truly irresistible is a hard task, but can temptation bundling is a simply strategy than can make it more attractive in a effective manner
 ### The Role of Family and Friends in Shaping your Habits
+#### Chapter Summary (page 122)
+* The culture we live in determines which behaviors are attractive to us
+* We tend to adopt habits that are praised and approved of by our culture because we have a strong desire to fit in and belong to the tribe
+* We tend to imitate the habits of three social groups: the close(family and friends), the many(the tribe), and the powerful(those with status and prestige)
+* One of the most effective things you can do to build better habits is to join a culture where (1) your desired behavior is the normal behavior and (2) you already have something in common with the group
+* The normal behavior of the tribe often overpowers the desired behavior of the individual. Most days, we'd rather be wrong with the crowd than be right by ourselves
+* If a behavior can get us approval, respect, and praise, we find it attractive
+#### My takeaways
+* The seductive pull of social names
+    * Humans are herd animals. We want to fit in and bond with others
+    * we don't choose our earliest habits, we imitate them
+    * We imitate from these 3 groups in particular
+        1. The close
+        1. The many
+        1. The powerful
+1. The close
+    * Surrounding yourself with others who exhibit habits that you want to adopt will more likely help you establish an effective habit
+        * Example: Going to the gym regularly with a friend committed to fitness will put peer pressure on you to keep up and imitate your friend because you view them as a success
+1. The many
+    * This can be a double-edged sword as it can lead to an inaccurate or doubtful response. You may succumb yourself to peer pressure per societal norms
+    * In other ways, this can be a good thing because you want to believe and want to fit in with the culture(i.e. if the neighborhood is mowing their own regularly, you don't want to be the oddball out, but you want to be part of the community norm)
+1. The powerful
+    * We want to imitate successful people because we ultimately want to succeed ourselves
 ### How to Find and Fix the Causes of Your Bad Habits
+#### Chapter Summary (page 133)
+* The inversion of the 2nd Law of Behavior Change is make it unattractive
+* Every behavior has a surface level craving and a deeper underlying motive
+* Your habits are modern-day solutions to ancient desires
+* The cause of your habits is actually the prediction that precedes them. Thpe reidction leads to a feeling
+* Highlight the benefits of avoinding a bad habit to make it seem unattractive
+* Habits are attractive when we associate them with positive feelings and unattractive when we associate them with negative feelings. Create a motivation ritual by doing something you enjoy immediately before a difficult habit
+#### My takeaways
+* Make and bad habits unattractive and acknowledge the association that creates it
+* Where cravings come from
+    * Common underlying motives of humans
+        1. Conserve energy
+        1. Obtain food and water
+        1. Find love and reproduce
+        1. Connect and bond with others
+        1. Win social acceptance and approval
+        1. Reduce uncertainty
+        1. Achieve status and prestige
+    * A manifestation of a deeper underlying motive
+        * You don't want to smoke, but you want to relieve anxiety and reduce uncertainty
+        * You don't want to post on instagram, but you want social accpetance and approval
+* How to reprogram your brain to enjoy hard habits
+    * Make more attractive by learning to associate them with a positive experience
+    * Sometimes, all you need is a slight mind-set shift
+    * Word choice matters in terms of helping you feel bettter
+        * Example:
+            * You have to wake up early for work --> You get to wake up early for work
+            * You have to exercise --> You get to walk with your partner after dinner
+    * These associations can become motivation rituals that becomes a cue
+        * Example: I associated listening to music to help calm my anxiety. I listen to music before playing my tennis game
 ### Summary
+* The 2nd law of behavior change is to make it attractive
+* The more attractive an opportunity is, the more likely it is to become habit-forming
+* It is the anticipation of a reward that gets us to action, not the fulfillment of it
+* Use a combination of temptation bundling and habit stacking to make your habits more attractive
+* Humans are herd animals and can be influenced by peer pressure and societal norms
+* We imitate the close, the many, and the powerful
+* Surrounding yourself with the like-minded individuals whom you want to imitate will likely help accelerate and establish your habit
+* Make bad habits unattractive and acknowledge what bad habits are exhibited from your behavior
+* Identify what underlying motives are associated with a particular habit
+* Reprogram your brain to enjoy hard habits
+    * Word choice and mindset matters to get yourself to feel better and make change more attractive
 
 ## Chapter 4 - The 3rd Law
 ### Walk Slowly, but Never Backward
