@@ -14,7 +14,7 @@
       <else>
         <encoder>
           <!-- %white and %gray seem to be inverted as of version 1.1.7 -->
-          <pattern>&#8203;[%date{ISO8601}] [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg%n</pattern>
+          <pattern>[%date{ISO8601}] [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg%n</pattern>
         </encoder>
       </else>
     </if>
@@ -34,7 +34,7 @@
       </then>
       <else>
         <encoder>
-          <pattern>&#8203;%[date{ISO8601}] [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg%n</pattern>
+          <pattern>[%date{ISO8601}] [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg%n</pattern>
         </encoder>
       </else>
     </if>
